@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to left, lightgrey);
+}
+header {
+    margin: auto;
+  text-align: center;
+  width: 400px;
+  background-color: brown;
+  padding: 5px;
+}
+article{
+    display: inline-block;
+    margin-left: 50px;
+}
+footer{
+    background-color: cadetblue;
+    text-align: end;
+}
+span > img{
+    display: none;
+}
+span:hover > img{
+    display: inline;
+}

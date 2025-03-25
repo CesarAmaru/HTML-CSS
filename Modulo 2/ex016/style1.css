@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main{
+    background-color: azure;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px blue;
+    margin: auto;
+    padding: 15px;
+    justify-content: space-around;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    
+}
+#lebron{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
