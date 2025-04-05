@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotaçõees de tabelass</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+     
+    </style>
+</head>
+<body>
+    <!--Hierarquia
+     1- <table>
+        2<tr>
+            3- <th> / <td>-->
+     <!--Tbm tem como seprar cada parte da tabela para melhor compreencao na hora de estilizar
+        usa-se <thead>, <tbody> e <tfoot>
+         Tbm tem o <caption> onde se da um titulo ou a legenda da tabela       
+    -->
+    <p>Poso tbm criar semantic tags para separar melhor o conteudo da minha tabela</p>
+    
+
+
+    <h1>Exemplo de tabelas</h1>
+    <table>
+        <caption>Pessoas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th> <!--É possivel especificar se um th esta nomenado uma coluna ou uma linha atraves do scope, com valores col(collunm) e row-->
+                <th scope="col">Idade</th>
+                <th scope="col">Genero</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iago</td>
+                <td>34</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Luzia</td>
+                <td>60</td>
+                <td>feminino</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
